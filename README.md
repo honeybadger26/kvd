@@ -4,7 +4,8 @@ Get notified of new videos on given YouTube channels.
 
 ## Instructions
 
-1. Create a `.env` file with your YouTube Data API key
+1. Create a `.env` file with your YouTube Data API key. See
+[here](https://developers.google.com/youtube/v3/getting-started) for more info.
 ```
 API_KEY="<your-key-here>"
 ```

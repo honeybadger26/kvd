@@ -5,15 +5,12 @@ type Video = {
   url: string;
 };
 
-// Time until new fetch is requested (in ms)
-const TIMEOUT = 30 * 60 * 1000;
-
-// Your YouTube API key. See here for more info:
-// https://developers.google.com/youtube/v3/getting-started
 const API_KEY = process.env.API_KEY as string;
-
 const API_URL = 'https://youtube.googleapis.com/youtube/v3';
 const VIDEO_URL = 'https://www.youtube.com/watch?v=';
+
+// Time until new fetch is requested (in ms)
+const TIMEOUT = 30 * 60 * 1000;
 
 // Channels to monitor for. To find the channel ID:
 // 1. Open 'Network' tab in your browsers dev tools
